@@ -36,7 +36,7 @@ The Employee Management System is a web application that allows users to manage 
 
 2. Navigate to the project directory:
 ```bash
-cd employee-management-system
+cd EmployeeCrud
 ```
 
 3. Install dependencies:
