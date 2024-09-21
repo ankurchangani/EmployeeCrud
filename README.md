@@ -49,12 +49,17 @@ npm install
 npm run dev
 ```
 
-**How to Use**
+5 . **How to Use**
 - Add Employee: Fill out the form and click the "Add Employee" button.
 - View Employee: See a list of all employees on the home page.
 - Update Employee: Click the "Edit" button next to an employee’s details to modify the information.
 - Delete Employee: Click the "Delete" button to remove an employee.
 
+6 . CreateData
+<img width="960" alt="Create" src="https://github.com/user-attachments/assets/ad10d021-c0a1-443f-8ce0-444ec8091fbb">
+
+7 . ViewData
+<img width="949" alt="ViewData" src="https://github.com/user-attachments/assets/77fc9243-dad1-4143-97d1-6039438f803c">
 
 
 
