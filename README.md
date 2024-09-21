@@ -32,7 +32,7 @@ The Employee Management System is a web application that allows users to manage 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/employee-management-system.git
+  [ git clone https://github.com/your-username/employee-management-system.git](https://github.com/ankurchangani/EmployeeCrud.git)
 
 2. Navigate to the project directory:
 ```bash
