@@ -8,3 +8,4 @@ const getdata = () => {
 }
 
 export default getdata
+

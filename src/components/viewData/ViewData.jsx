@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ViewData = ({ Storage, handleEdit  , hndleRemove}) => {
+const ViewData = ({ Storage, handleEdit  , handleRemove}) => {
     return (
         <>
             <div className="p-6 bg-white rounded-lg shadow-lg">
@@ -36,7 +36,8 @@ const ViewData = ({ Storage, handleEdit  , hndleRemove}) => {
                                         <i className="bi bi-pencil-square text-yellow-500 text-2xl mx-2"></i>
                                     </button>
 
-                                    <button onClick={() => hndleRemove(rec.id) }>
+                                    <button onClick={() => handleRemove
+                                        (rec.id) }>
                                         <i className="bi bi-trash-fill text-red-500 text-2xl mx-2"></i>
                                     </button>
                                 </td>
@@ -47,6 +48,7 @@ const ViewData = ({ Storage, handleEdit  , hndleRemove}) => {
                 </table>
             </div>
         </>
+        
     )
 }
 

@@ -33,7 +33,7 @@ const EmployeeForm = () => {
     
   };
 
-  const hndleRemove = (id) => {
+  const handleRemove = (id) => {
     console.log("id" , id) ;
     let record = Storage ;
     let deleteRecord = record.filter((rec)=>{
@@ -54,10 +54,12 @@ const EmployeeForm = () => {
       let obj = {
         ...forminput,
         id: generateUniqueId({
-          length: 10,
+          length: 4,
           useLetters: false
         })
       };
+
+
 
       setStorage([...Storage, obj]);
     }
@@ -146,7 +148,7 @@ const EmployeeForm = () => {
                 Age
               </label>
               <input
-                type="number"
+                type="text"
                 id="age"
                 name="age"
                 value={forminput.age}
@@ -201,7 +203,7 @@ const EmployeeForm = () => {
 
       <div className="py-1 " style={{ background: '#64427C' }} />
 
-      <ViewData Storage={Storage} handleEdit={handleEdit} hndleRemove = {hndleRemove} />
+      <ViewData Storage={Storage} handleEdit={handleEdit} handleRemove = {handleRemove} />
     </>
   );
 };
