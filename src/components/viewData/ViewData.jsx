@@ -28,9 +28,7 @@ const ViewData = ({ Storage, handleEdit  , handleRemove}) => {
                                 <td className="border px-4 py-2 text-center">{rec.department}</td>
                                 <td className="border px-4 py-2 text-center">{rec.position}</td>
                                 <td className="border px-4 py-2 text-center">
-                                    <button>
-                                        <i className="bi bi-eye-fill text-blue-500 text-2xl mx-2"></i>
-                                    </button>
+                                    
 
                                     <button  onClick={() => handleEdit(rec.id)}>
                                         <i className="bi bi-pencil-square text-yellow-500 text-2xl mx-2"></i>
